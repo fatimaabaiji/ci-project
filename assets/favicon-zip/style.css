@@ -58,13 +58,21 @@ h1{
   color: #252525;
 
 }
-.nav_ul{
+#menu{
   font-size:1,1rem;
   letter-spacing: 4px;
   list-style: none;
 }
 
+/*targeting the lists inside the menu*/
+
+#menu > li{
+  margin-bottom:1em;
+}
+
 /*main content */
+
+
 .main{
     background-color: yellow;
     /*make main element take up any surplus space to puch footer down*/
