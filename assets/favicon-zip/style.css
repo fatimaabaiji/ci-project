@@ -82,6 +82,19 @@ h1{
 .active{
   border-bottom: 1px solid #252525;
 }
+
+/* navigation bar*/
+
+nav{
+  position: absolute;
+  background-color: #fff;
+  width:100%;
+  left: 0;
+  padding:0 1rem;
+  box-shadow: 0 2px 2px #a3a3a3a3;;
+
+}
+
 /*footer*/
 .footer{
     background-color: red;
