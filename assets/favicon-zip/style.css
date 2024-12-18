@@ -79,6 +79,9 @@ h1{
     flex:1 0 auto;
 }
 
+.active{
+  border-bottom: 1px solid #252525;
+}
 /*footer*/
 .footer{
     background-color: red;
