@@ -92,7 +92,7 @@ nav{
   left: 0;
   padding:0 1rem;
   box-shadow: 0 2px 2px #a3a3a3a3;;
-
+  display:none;
 }
 
 /*footer*/
