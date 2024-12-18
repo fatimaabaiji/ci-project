@@ -46,6 +46,9 @@ background-color: rgb(255, 255, 255);
  z-index: 99;
  width: 100%;
  box-shadow: 0 2px 2px #a3a3a3a3;
+ display:flex;
+ justify-content:space-between;
+ align-items: baseline;
 }
 header a{
   text-decoration: none;
@@ -77,6 +80,7 @@ h1{
     background-color: yellow;
     /*make main element take up any surplus space to puch footer down*/
     flex:1 0 auto;
+    margin-top:47px;
 }
 
 .active{
@@ -93,8 +97,22 @@ nav{
   padding:0 1rem;
   box-shadow: 0 2px 2px #a3a3a3a3;;
   display:none;
+  top:100%;
+}
+ 
+/*nav toggle*/
+#nav_toggle:checked~nav{
+  display:block;
 }
 
+#nav_toggle{
+  display:none;
+font-size: 2rem;
+
+}
+.nav_toggle_label{
+
+}
 /*footer*/
 .footer{
     background-color: red;
