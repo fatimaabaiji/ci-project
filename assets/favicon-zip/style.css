@@ -35,12 +35,28 @@ body{
     flex-direction:column;
     font-family: "Oswald", serif;
 /*generic project styles*/
-  background-color:#3a3a3a3a;
+  background-color:#806e6e3a;
 
 }
 /*header*/
 .header{
-background-color: blueviolet;
+background-color: rgb(255, 255, 255);
+ padding: 0 1rem;
+ position:fixed;
+ z-index: 99;
+ width: 100%;
+ box-shadow: 0 2px 2px #a3a3a3a3;
+}
+header a{
+  text-decoration: none;
+  color:inherit
+}
+h1{
+  font-family:'Oswald', sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+
 }
 
 /*main content */
