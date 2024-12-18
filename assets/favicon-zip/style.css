@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/*
+google fonts added to the boody
+oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/*astrick slector to override the default style added by the browser*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styling*/
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family: "Oswald", serif;
+/*generic project styles*/
+  background-color:#3a3a3a3a;
+
+}
+/*header*/
+.header{
+background-color: blueviolet;
+}
+
+/*main content */
+.main{
+    background-color: yellow;
+    /*make main element take up any surplus space to puch footer down*/
+    flex:1 0 auto;
+}
+
+/*footer*/
+.footer{
+    background-color: red;
+}
