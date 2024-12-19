@@ -35,7 +35,7 @@ body{
     flex-direction:column;
     font-family: "Oswald", serif;
 /*generic project styles*/
-  background-color:#806e6e3a;
+  background-color:white;
 
 }
 /*header*/
@@ -113,11 +113,22 @@ font-size: 2rem;
 .nav_toggle_label{
   font-size:2rem;
 }
-/*footer*/
-.footer{
-    background-color: red;
+/*footer social network*/
+#social_list{
+  align-items: center;
+  padding:20px 0;
+  display:flex;
+  justify-content: space-evenly;
+  list-style-type:none;
 }
 
+/*social list and i */
+
+#social_list i{
+  font-size:160%;
+  padding:5%;
+  color:#a3a3a3a3;
+}
 /*media query for tablet and larger devices*/
 @media screen and (min-width:768px) {
   nav{
