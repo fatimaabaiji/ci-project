@@ -121,7 +121,7 @@ font-size: 2rem;
 /*media query for tablet and larger devices*/
 @media screen and (min-width:768px) {
   nav{
-    background-color: aqua;
+    background-color: rgb(73, 130, 130);
     display: block;
     position:relative;
     box-shadow: none;
@@ -146,5 +146,12 @@ main{
   /*push main down to accomadate larger header*/
   margin-top: 79px;
 }
+}
+
+@media screen and (min-width: 992px) {
+  #menu a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #252525;
+  }
 }
 
