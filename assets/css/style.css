@@ -45,6 +45,10 @@ h1, h2, h3{
   color: #252525;
 
 }
+
+.hidden-heading{
+  display:none
+}
 /*header*/
 .header{
 background-color: rgb(255, 255, 255);
@@ -208,7 +212,8 @@ hr {
   expend to fill the avaialable space on its row*/
   flex-basis:200px;
   flex-grow:1;
-  /*space between the divs*/
+  /*to show the space between the 
+  divs when moved make it visual*/
   border: 2px solid white;
 }
 
