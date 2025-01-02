@@ -250,21 +250,26 @@ main{
   #benefits{
     display: flex;
     flex-direction:row;
-    justify-content:space-between;
-    align-items: center;
+    
   }
 
-  #benefits-physical{
-    flex-grow: 0;
-    order:1;
-  }
-  #benefits-mental{
-    flex-grow: 0;
-    order:3;
-   
+  #benefits > div{
+    
+    flex:1;
   }
   #benefits-image{
-    flex-grow:0;
-   order:2;
+
+    order:0;
+   
+  }
+  
+  #benefits-mental{
+    order:1;
+  }
+  #benefits-mental > div{
+    align-self:flex-start;
+  }
+  #benefits-physical{
+    align-self:flex-end;
   }
 }
