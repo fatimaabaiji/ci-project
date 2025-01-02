@@ -153,6 +153,21 @@ font-size: 2rem;
   padding:5%;
   color:#a3a3a3a3;
 }
+#reasons{
+  padding:0 10px 15px 10px;
+}
+
+#reasons > h2{
+  margin-bottom: 20px;
+  text-align:center;
+  font-size:2rem;
+
+}
+#benefits-physical > div, #benefits-mental > div{
+  line-height:1,5;
+  margin-bottom: 20px;
+}
+
 /*media query for tablet and larger devices*/
 @media screen and (min-width:768px) {
   nav{
