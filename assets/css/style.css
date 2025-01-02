@@ -192,6 +192,8 @@ hr {
   justify-content: center;
 }
 
+
+
 /*media query for tablet and larger devices*/
 @media screen and (min-width:768px) {
   nav{
