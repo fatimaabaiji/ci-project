@@ -35,8 +35,34 @@
  </header>
 
  <main class="main">
-   main content 
- </main>
+  <section id="signup" class="background">
+    <h1>LET'S GET YOU SIGNED UP!</h1>
+  
+    <form id="signup-form" action="#" method="POST">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" class="text-input" required><br>
+  
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" class="text-input" required><br>
+  
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" class="text-input" required><br>
+  
+        <div class="radio-group">
+          <input type="radio" id="road" name="run-type" value="road" checked>
+          <label for="road">Road</label>
+  
+          <input type="radio" id="trail" name="run-type" value="trail">
+          <label for="trail">Trail</label>
+  
+          <input type="radio" id="both" name="run-type" value="both">
+          <label for="both">Both</label>
+        </div><br>
+  
+        <button type="submit" class="join-button">Let's Run</button>
+    </form>
+  </section>
+  
 
  <footer class="footer">
 <ul id="social_list">

@@ -229,6 +229,94 @@ hr {
  #photos{
   line-height: 0;
  }
+ /*sign up page*/
+ /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Background Image Styling */
+.background {
+  background: url(../images/signup-image.webp)no-repeat center center/cover; /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Form Styling */
+#signup-form {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Form Heading */
+#signup-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input Fields */
+.text-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Input Hover Effect */
+.text-input:hover {
+  border: 2px solid #f16c6b;
+}
+
+/* Radio Button Group */
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: white;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Submit Button */
+.join-button {
+  background-color: #454b1b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #454b1b;
+}
+
+
  /*media query larger or landscape phone (576px and up)*/
  @media screen and (min-width: 576px) {
   #photos{
@@ -289,7 +377,23 @@ main{
   column-count:3;
 
  }
+
+/* Media Query for Responsive Design sign up page for small devices*/
+
+#signup {
+    justify-content: flex-start;
+    padding-top: 150px;
+   
+  
+  }
+
+  #signup-form {
+    width: 400px;
+    
+  }
+ 
 }
+
 
 @media screen and (min-width: 992px) {
   #menu a:hover{
