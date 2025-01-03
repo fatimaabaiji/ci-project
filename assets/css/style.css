@@ -229,6 +229,14 @@ hr {
  #photos{
   line-height: 0;
  }
+ /*media query larger or landscape phone (576px and up)*/
+ @media screen and (min-width: 576px) {
+  #photos{
+    column-count:2;
+    column-gap: 0;
+  }  
+ }
+
 /*media query for tablet and larger devices*/
 @media screen and (min-width:768px) {
   nav{
@@ -276,12 +284,23 @@ main{
   text-align:end;
   align-self:flex-end;
 }
+/* gallery*/
+ #photos{
+  column-count:3;
+
+ }
 }
 
 @media screen and (min-width: 992px) {
   #menu a:hover{
     border-bottom: 1px solid #252525;
   }
+
+  /*gallery*/
+  #photos{
+    column-count:4;
+    
+   }
 }
 @media screen and (min-width:1200px) {
   #benefits{
@@ -310,3 +329,5 @@ main{
     align-self:flex-end;
   }
 }
+
+
